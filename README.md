@@ -16,7 +16,7 @@ Hack-All is a simple CLI tool that helps ethical-hackers to make a reverse conne
 
 </p>
 # Installation
-Installation Instructions can be found in the [INSTRUCTIONS.md](https://github.com/YagamiLight17/Hack-All/blob/main/INSTRUCTIONS.md)
+ Instructions can be found in the [INSTRUCTIONS.md](https://github.com/YagamiLight17/Hack-All/blob/main/INSTRUCTIONS.md)
 
    
 # Remember You are not safe unless you are not legal
