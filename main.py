@@ -60,7 +60,7 @@ def load():
 	elif choose == "2":
 		LinuxInput = input('\n' + indicatorlogo + "Provide Linux Payload Direct Download Url: ")
 		fin = open("1.html", "rt")
-		fout = open("1.html", "wt")
+		fout = open("index.html", "wt")
 		for line in fin:
 			fout.write(line.replace('Linux_URL', str(LinuxInput)))
 		fout.close()		
