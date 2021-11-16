@@ -41,7 +41,7 @@ def load():
 	print(logo)
 	indicator = ("\033[0m\033[31m┌──\033[96m(\033[31m\033[1mLeader\033[0m💀\033[31mKira\033[1m\033[96m)\033[0m-[\033[0m\033[39m\033[1mLightYagami\033[0m\033[96m]\n\033[31m└─\033[32m#\033[96m ")
 	indicatorlogo = (str(indicator))
-	AndroidInput = input('\n' + indicatorlogo + "Provide Android Payload Direct Download Url: ")
+	AndroidInput = input('\n' + indicatorlogo + "Provide Android Payload Direct Download Url with http/https: ")
 	fin = open("webcondition.html", "rt")	
 	fout = open("1.html", "wt")
 	for line in fin:
@@ -50,7 +50,7 @@ def load():
 	fin.close()	
 	choose = input('\n' + indicatorlogo + "Do You Want To add 1-Windows|2-Linux|3-Ios|4-MacOs Payload link?: ")
 	if choose == "1":
-		WindowsInput = input('\n' + indicatorlogo + "Provide Windows Payload Direct Download Url: ")
+		WindowsInput = input('\n' + indicatorlogo + "Provide Windows Payload Direct Download Url with http/https: ")
 		fin = open("1.html", "rt")
 		fout = open("index.html", "wt")
 		for line in fin:
@@ -58,7 +58,7 @@ def load():
 		fout.close()
 		fin.close()
 	elif choose == "2":
-		LinuxInput = input('\n' + indicatorlogo + "Provide Linux Payload Direct Download Url: ")
+		LinuxInput = input('\n' + indicatorlogo + "Provide Linux Payload Direct Download Url with http/https: ")
 		fin = open("1.html", "rt")
 		fout = open("index.html", "wt")
 		for line in fin:
@@ -66,7 +66,7 @@ def load():
 		fout.close()		
 		fin.close()
 	elif choose == "3":
-		IOSInput = input('\n' + indicatorlogo + "Provide IOS Device Direct Download Url: ")
+		IOSInput = input('\n' + indicatorlogo + "Provide IOS Device Direct Download Url with http/https: ")
 		fin = open("1.html", "rt")
 		fout = open("index.html", "wt")		
 		for line in fin:
@@ -74,7 +74,7 @@ def load():
 		fout.close()			
 		fin.close()
 	elif choose == "4":
-		MacOSInput = input('\n' + indicatorlogo + "Provide MacOS Direct Download Url: ")
+		MacOSInput = input('\n' + indicatorlogo + "Provide MacOS Direct Download Url with http/https: ")
 		fin = open("1.html", "rt")
 		fout = open("index.html", "wt")		
 		for line in fin:
